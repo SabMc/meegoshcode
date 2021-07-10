@@ -1,0 +1,28 @@
+.parallax {
+  min-height: 50vh;
+  background-image: url(./images/parallax.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.parallax h5 {
+  font-size: 120px;
+  text-align: center;
+}
+
+.text {
+  height: 50vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 960px) {
+  .parallax h5 {
+    font-size: 80px;
+    padding: 20px 40px;
+  }
+}
