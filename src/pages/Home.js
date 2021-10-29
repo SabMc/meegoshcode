@@ -5,6 +5,7 @@ function Home() {
   return (
     <div>
       <About />
+      <p>Portfolio in progress</p>
     </div>
   );
 }
