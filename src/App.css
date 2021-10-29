@@ -2,5 +2,21 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: 20px;
+  font-weight: 250;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+p {
+  line-height: 1.5;
+}
