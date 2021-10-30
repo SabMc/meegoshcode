@@ -16,17 +16,14 @@ function About() {
           </div>
           <div className="description two">
             <h2 className="article-title">Sabrina from Meegosh Code</h2>
-            <p>
-              Welcome to the world of Meegosh, I am an environmental engineer
-              and front-end developer. <br /> Change management allows me to
-              combine all of my skills <br /> I like to keep my pages
-              minimalistic and glamurous <br /> Speaking multiple languages
-              allows me to engage easily with different people all over the
-              planet
-            </p>
-            <p>
-              My goal is to bring your projects online in a minimalistic design
-              to focus on your message
+            <p className="short-text">
+              Welcome to the world of Meegosh, being a process engineer and
+              front-end developer allows me to combine my skills in change
+              management. My goal is to bring your projects online focusing on
+              your message. <br /> Speaking multiple languages allows me to
+              engage easily with different people all over the planet My goal is
+              to bring your projects online in a minimalistic design to focus on
+              your message
             </p>
           </div>
         </div>
