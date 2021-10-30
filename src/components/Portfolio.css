@@ -6,7 +6,6 @@
 .container-portfolio {
   display: grid;
   grid-auto-flow: dense;
-  grid-template-columns: repeat(3, 1fr);
   gap: 15px 10px;
   justify-items: center;
   align-items: center;
@@ -55,5 +54,10 @@
 @media screen and (max-width: 1024px) {
   .portfolio-content {
     margin-bottom: 2rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .projects-container {
+    display: flex;
   }
 }
