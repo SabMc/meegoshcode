@@ -11,6 +11,10 @@
   align-items: center;
 }
 
+.portfolio-container h2 {
+  text-align: center;
+}
+
 .portfolio-content {
   display: flex;
   flex: 1;

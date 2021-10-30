@@ -7,7 +7,6 @@ function Home() {
     <div>
       <About />
       <Portfolio />
-      <p>Portfolio in progress</p>
     </div>
   );
 }

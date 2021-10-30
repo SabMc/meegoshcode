@@ -8,7 +8,7 @@ function Portfolio() {
   return (
     <>
       <div className="portfolio-container">
-        <h2>Portfolio</h2>
+        <h2 className="article-title">Portfolio</h2>
         <div className="portfolio-wrapper">
           <ul className="projects-container">
             <Project
@@ -25,6 +25,14 @@ function Portfolio() {
               img={sailingapp}
               titel="Sailing Weather App"
               text="Creating a sailing app to check the weather. Calculating the wind speed to beaufort at the current location and which ever location requiered"
+            />
+            <Project
+              path="#"
+              img={dacfront}
+              titel="Dutch Art Class"
+              text="Creating an online school. From the idea to the execution of
+              building a homepage, training the art teacher in giving live
+              sessions to developing a promotion plan"
             />
           </ul>
         </div>
