@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 //hover lifting up with box shadow
 
@@ -8,7 +8,7 @@ function Project(props) {
   return (
     <div className="container-portfolio">
       <li className="portfolio-content">
-        <Link className="projectlink" to={props.path} target="_blank">
+        <div className="projectlink">
           <figure className="project-img-wrap">
             <img
               src={props.img}
@@ -20,8 +20,9 @@ function Project(props) {
           <div className="project-info">
             <h5 className="project-text">{props.titel}</h5>
             <p>{props.text}</p>
+            <a href={props.path}>Find out more</a>
           </div>
-        </Link>
+        </div>
       </li>
     </div>
   );

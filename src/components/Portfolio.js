@@ -12,16 +12,23 @@ function Portfolio() {
         <div className="portfolio-wrapper">
           <ul className="projects-container">
             <Project
-              path="#"
+              path="https://dutchartclass.nl"
               img={dacfront}
               titel="Dutch Art Class"
               text="Creating an online school. From the idea to the execution of
               building a homepage, training the art teacher in giving live
               sessions to developing a promotion plan"
             />
-
             <Project
-              path="#"
+              path="https://dutchartclass.nl"
+              img={dacfront}
+              titel="Dutch Art Class"
+              text="Creating an online school. From the idea to the execution of
+              building a homepage, training the art teacher in giving live
+              sessions to developing a promotion plan"
+            />
+            <Project
+              path="https://focused-stonebraker-0d6f32.netlify.app"
               img={sailingapp}
               titel="Sailing Weather App"
               text="Creating a sailing app to check the weather. Calculating the wind speed to beaufort at the current location and which ever location requiered"
