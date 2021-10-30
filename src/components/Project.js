@@ -10,7 +10,11 @@ function Project(props) {
       <li className="portfolio-content">
         <Link className="projectlink" to={props.path} target="_blank">
           <figure className="project-img-wrap">
-            <img src={props.img} alt="frontpagedac" className="frontpage-img" />
+            <img
+              src={props.img}
+              alt="frontpageproject"
+              className="frontpage-img"
+            />
           </figure>
 
           <div className="project-info">
