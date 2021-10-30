@@ -4,17 +4,22 @@ import { Link } from "react-router-dom";
 
 //hover lifting up with box shadow
 
-function Project() {
+function Project(props) {
   return (
-    <>
-      <Link className="projectlink" to="#">
-        <img src="#" alt="Screenshot" />
+    <div className="container-portfolio">
+      <li className="portfolio-content">
+        <Link className="projectlink" to={props.path} target="_blank">
+          <figure className="project-img-wrap">
+            <img src={props.img} alt="frontpagedac" className="frontpage-img" />
+          </figure>
 
-        <div className="project-info">
-          <h5 className="project-text">Weather forecast for sailing</h5>
-        </div>
-      </Link>
-    </>
+          <div className="project-info">
+            <h5 className="project-text">{props.titel}</h5>
+            <p>{props.text}</p>
+          </div>
+        </Link>
+      </li>
+    </div>
   );
 }
 
