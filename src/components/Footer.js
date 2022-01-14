@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
       <div className="footer-container">
-        <p>Copyright © 2021 | built by Meegosh Code</p>
+        <p>Copyright © 2022 | built by Meegosh Code</p>
       </div>
     </>
   );
