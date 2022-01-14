@@ -6,17 +6,29 @@
   font-weight: 250;
 }
 
+:root{
+  --primary-color:#524F4F;
+  --secondary-color:#75BBE7;
+}
+
+
 html,
 body {
   height: 100%;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 0.5rem;
   line-height: 1.5;
+  padding: 1rem 1rem;
+  text-align: center;
+
 }
 
 p {
   line-height: 1.5;
 }
+
+a{text-decoration: none;
+  color: var(--primary-color);}
