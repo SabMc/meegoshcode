@@ -1,8 +1,23 @@
+
+.footer-container p {
+  font-size: 14px;
+}
+
 .copyright-container {
   margin: 0 auto;
   padding: 2em 0em;
   text-align: center;
 }
-.footer-container p {
-  font-size: 14px;
+
+.footer-content{
+  display: flex;
+  max-width: 60%;
+  justify-content: space-evenly;
+  margin:0 auto;
+}
+
+.legal-nummers{padding-top: 20px;}
+
+@media screen and (max-width:900px){
+  .footer-content{flex-direction: column;}
 }

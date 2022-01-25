@@ -5,23 +5,33 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer-container">
-      <div className="legal-links">
+      <div className="footer-content">
       <div>
-        <h5>
-          Meegosh Code
-          </h5>
+        <h4>
+          Contact
+          </h4>
           <p>
+            Meegosh Code
+            <br/>
             Diezestraat 19-2
             <br/>
             1078JM Amsterdam
           </p>
-          <p>
+          <p className="legal-nummers">
             kvk: 82899282
             <br/>
             BTW: NL003746808B75
           </p>
-          </div>
-      <div></div>
+        </div>
+      <div>Home
+        <br/>
+        About
+        <br/>
+        Portfolio
+        <br/>
+        Contact
+
+      </div>
 
       </div>
       <div className="copyright-container">
