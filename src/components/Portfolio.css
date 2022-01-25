@@ -103,6 +103,9 @@
     letter-spacing: 1px;
     font-size: 85%;
     color: white;
+    border: 1px solid white;
+    padding: 7px;
+    
   }
   /* Sweet Marley Effect */
 
@@ -174,10 +177,12 @@
   @media screen and (max-width: 960px) {
     .grid figure p {
       font-size: 55%;
+      
   }
   
   .grid figure h2 {
-    font-size: 70%;  
+    font-size: 70%;
+    display: none;  
 }
 }
 

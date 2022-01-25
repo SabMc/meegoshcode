@@ -1,8 +1,10 @@
-.contact-container{display: flex;
+.contact-container{
+display: flex;
 width: 80%;
 margin: 0 auto;
 justify-content: space-evenly;
 padding-bottom: 3rem;
+flex-wrap: wrap;
 }
 
 .social-media-link{
@@ -12,3 +14,4 @@ padding: 15px;}
 
 .social-media-link:hover{background-color: var(--secondary-color);
 color:ivory;}
+
