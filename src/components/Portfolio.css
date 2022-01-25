@@ -14,9 +14,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1200px) {
-  .projects-container{flex-direction: column;}
-}
+
 
 .grid{
   position: relative;
@@ -167,16 +165,19 @@
     transform: translate3d(0,0,0);
   }
 
+  @media screen and (max-width: 1200px) {
+    .projects-container{
+      flex-direction: column;
+    }
+  }
+
   @media screen and (max-width: 960px) {
     .grid figure p {
-      
       font-size: 55%;
-      
-    
   }
   
   .grid figure h2 {
-      
     font-size: 70%;  
 }
 }
+
