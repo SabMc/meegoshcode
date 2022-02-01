@@ -1,6 +1,8 @@
 import React from "react";
 import "./Contact.css";
 import {FaFacebookF} from "react-icons/fa";
+import {FaInstagram} from "react-icons/fa";
+import {FaLinkedinIn} from "react-icons/fa";
 
 
 function Contact(){
@@ -14,10 +16,10 @@ function Contact(){
 <div className="social-media-link linkedin">
     <a href="https://www.linkedin.com/in/sabrina-mcewan-15a04ab0/">
         
-        Linkedin
+        <FaLinkedinIn/>Linkedin
         </a>
         </div>
-<div className="social-media-link insta"><a href="https://www.instagram.com/meegoshcode/">   Instagram</a></div>
+<div className="social-media-link insta"><a href="https://www.instagram.com/meegoshcode/"> <FaInstagram/>  Instagram</a></div>
 <div className="social-media-link facebook"><a href="https://www.facebook.com/Meegosh-Code-108366868384600"> <FaFacebookF />   Facebook</a></div>
 
 </div>
