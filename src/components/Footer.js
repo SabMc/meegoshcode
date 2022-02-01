@@ -17,13 +17,15 @@ function Footer() {
             <br/>
             1078JM Amsterdam
           </p>
-          <p className="legal-nummers">
+          <p className="legal-numbers">
             kvk: 82899282
             <br/>
             BTW: NL003746808B75
           </p>
         </div>
-      <div>Home
+      <div className="sitemap">
+        <h4>Sitemap</h4>
+        Home
         <br/>
         About
         <br/>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import {FaFacebookF} from "react-icons/fa";
 
 
 function Contact(){
@@ -17,7 +18,7 @@ function Contact(){
         </a>
         </div>
 <div className="social-media-link insta"><a href="https://www.instagram.com/meegoshcode/">   Instagram</a></div>
-<div className="social-media-link facebook"><a href="https://www.facebook.com/Meegosh-Code-108366868384600">    Facebook</a></div>
+<div className="social-media-link facebook"><a href="https://www.facebook.com/Meegosh-Code-108366868384600"> <FaFacebookF />   Facebook</a></div>
 
 </div>
 

@@ -12,6 +12,7 @@ border: 1px solid var(--secondary-color);
 border-radius: 30% 10%;
 padding: 15px;}
 
-.social-media-link:hover{background-color: var(--secondary-color);
-color:ivory;}
-
+.social-media-link:hover{
+    background-color: var(--secondary-color);
+}
+.social-media-link a:hover{color: cornsilk;}

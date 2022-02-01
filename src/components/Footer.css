@@ -1,4 +1,7 @@
 
+.footer-container{background-color: var(--secondary-color);
+padding-top: 30px;}
+
 .footer-container p {
   font-size: 14px;
 }
@@ -11,13 +14,17 @@
 
 .footer-content{
   display: flex;
-  max-width: 60%;
+  max-width: 900px;
   justify-content: space-evenly;
-  margin:0 auto;
+  margin:0;
 }
 
-.legal-nummers{padding-top: 20px;}
+.legal-numbers{padding-top: 20px;}
+
+
 
 @media screen and (max-width:900px){
-  .footer-content{flex-direction: column;}
+  .footer-content{flex-direction: column;
+  text-align: center;}
+  .sitemap{padding-top: 20px;}
 }

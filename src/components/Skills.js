@@ -1,21 +1,24 @@
 import React from "react";
 import "./Skills.css";
-
+import {FaWordpressSimple} from "react-icons/fa";
+import {FaHtml5} from "react-icons/fa";
+import {FaJs} from "react-icons/fa";
+import {FaBootstrap} from "react-icons/fa";
 
 function Skills() {
     return (
       <div>
           <h2>Skills</h2>
           <div className="container-skills">
-              <div>HTML</div>
+              <div><FaHtml5/>HTML</div>
               <div>CSS</div>
-              <div>JS</div>
+              <div><FaJs/>JS</div>
               
           </div>
           <div className="container-skills">
               <div>React</div>
-              <div>Wordpress</div>
-            <div>Bootstrap</div>
+              <div><FaWordpressSimple /> Wordpress</div>
+            <div><FaBootstrap/>Bootstrap</div>
           </div>
           
         
