@@ -27,7 +27,7 @@ function Footer() {
         <h4>Sitemap</h4>
         Home
         <br/>
-        About
+        Service
         <br/>
         Portfolio
         <br/>

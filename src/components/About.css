@@ -23,8 +23,8 @@
   justify-content: center;
   text-align: center;
 }
-.short-text {
-  text-align: justify;
+.quote {
+  text-align: center;
 }
 .me-image {
   border-radius: 50%;

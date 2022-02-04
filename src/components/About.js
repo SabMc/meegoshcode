@@ -12,11 +12,11 @@ function About() {
 
         <div className="introduction" id="about">
           <div className="one">
-            <img src={frontpageme} alt="mypic" className="me-image" />
+            <img src={frontpageme} alt="Sabrina from Meegosh Code" className="me-image" />
           </div>
           <div className="description two">
             <h2 className="article-title">Sabrina from Meegosh Code</h2>
-            <p className="short-text">
+            <p className="quote">
             Meegosh Code offers customised digital solutions for small businesses and artists 
             </p>
             <ul className="service-list">

@@ -5,7 +5,15 @@ border-radius: 10px;
 box-shadow: var(--box-shadow);
 text-align: center;
 margin-bottom: 40px;
+background-color: white;
 }
 
 .icon{color: var(--secondary-color);
 }
+
+@media screen and (max-width:900px){
+    .card{
+        width: 90px;
+    }
+       .card p{display: none;} 
+  }

@@ -14,7 +14,7 @@ function Portfolio() {
           <div className="projects-container">
           <Project2 
           img={dacfront}
-          alt="dutch art class frontpage pic"
+          alt="dutch art class frontpage picture"
           description="Online Art School"
           titel="Dutch Art Class"
           text="Creating an online art school. From the idea to the execution of

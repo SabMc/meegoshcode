@@ -10,6 +10,7 @@
   --primary-color:#524F4F;
   --secondary-color:#75BBE7;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --background-color:#c7e3f5;
 }
 
 
@@ -24,7 +25,6 @@ h2 {
   line-height: 1.5;
   padding: 1rem 1rem;
   text-align: center;
-
 }
 
 p {
@@ -35,27 +35,34 @@ a{text-decoration: none;
   color: var(--primary-color);}
 
   @media screen and (max-width: 1200px) {
+    h1{font-size: 72px;}
+    
     h2{
-      font-size: 18px;
+      font-size: 27px;
     }
     
     h5 {
       font-size: 80px;
+    }
+    p, li, a {
+      font-size: 18px;
     }
   }
 
 
 @media screen and (max-width:900px){
   
+  h1{font-size: 48px;}
+  
   h2{
-    font-size: 18px;
+    font-size: 24px;
   }
   
   h5 {
     font-size: 20px;
   }
   p, li, a {
-    font-size: 15px;
+    font-size: 16px;
   }
   
 }

@@ -11,8 +11,9 @@ import {FaCss3} from "react-icons/fa";
 
 function Skills() {
     return (
-      <div>
+      <div className="section-skills">
           <h2>Skills</h2>
+          
           <div className="container-skills">
               <div>
                 <div className="card">
@@ -68,7 +69,8 @@ function Skills() {
                 <p>Bootstrap</p>
                 </div>
               </div>
-          </div>      
+         
+        </div>    
       </div>
     );
   }
