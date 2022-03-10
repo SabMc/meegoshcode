@@ -19,11 +19,7 @@ function About() {
             <p className="quote">
             Meegosh Code offers customised digital solutions for small businesses and artists 
             </p>
-            <ul className="service-list">
-              <li>Creating and maintaining websites</li>
-              <li>Building online courses</li>
-              <li>Developing a marketing plan</li>
-              <li>Setting up virtual events</li></ul>
+            
            
           </div>
         </div>

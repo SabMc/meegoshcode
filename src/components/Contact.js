@@ -9,7 +9,7 @@ import {FaLinkedinIn} from "react-icons/fa";
 
 function Contact(){
     return (
-    <div>
+    <div id="contact">
         <h2>Send an e-mail 
             <br />
         <a href="mailto:sabrina@meegoshcode.com" title="Contact email Meegosh Code">
