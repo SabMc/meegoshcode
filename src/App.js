@@ -5,6 +5,11 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import PrivatPolicy from "./pages/PrivatPolicy";
 
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-K2QRWR3FG1");
+ReactGA.send("pageview");
+
 
 function App() {
   return (

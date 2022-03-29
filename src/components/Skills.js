@@ -14,7 +14,7 @@ import course from "./images/course.svg";
 function Skills() {
     return (
       <div className="section-skills">
-          <h2>Service</h2>
+          <h2 className="skill-service">Service</h2>
 
         <div className="container-service">
           <div className="service">
@@ -53,7 +53,7 @@ function Skills() {
 
           </div>
 
-          <h2>Tools we use</h2>
+          <h2 className="skill-tools">Tools we use</h2>
 
           <div className="container-skills">
               <div>

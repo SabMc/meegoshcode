@@ -1,5 +1,5 @@
 .card {
-width: 120px;
+width: 130px;
 padding: 15px;
 border-radius: 10px;
 box-shadow: var(--box-shadow);
@@ -10,7 +10,8 @@ background-color: white;
 
 
 
-.icon{color: var(--secondary-color);
+.icon{
+    color: var(--secondary-color);
 }
 
 @media screen and (max-width:900px){

@@ -12,7 +12,7 @@ function Project(props) {
           <figure className="project-img-wrap">
             <img
               src={props.img}
-              alt="frontpageproject"
+              alt={props.alt}
               className="frontpage-img"
             />
           </figure>

@@ -18,7 +18,12 @@
     border-radius: 10px;
     box-shadow: var(--box-shadow);
     margin: 20px;
+    padding:20px 15px;
 }
+
+.skill-service{margin-bottom: 30px;}
+
+.skill-tools{margin-bottom: 30px;}
 
 .service img{
     max-height: 160px;
