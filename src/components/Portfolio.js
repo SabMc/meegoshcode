@@ -14,7 +14,6 @@ function Portfolio() {
     
           <div className="projects-container">
 
-         
           <Project3 
           img={persportfolio}
           alt="personal portfolio final project from shecodes workshop responsive"

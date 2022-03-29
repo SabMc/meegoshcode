@@ -1,5 +1,5 @@
 import React from "react";
-import persportfolio from "./images/persportfolio.jpg";
+
 
 function Project3(props) {
 return(
