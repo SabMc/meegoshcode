@@ -35,7 +35,7 @@
 }
 
 .project-card a{
-  background-color: var(--secondary-color);
+  background-color: var(--background-color);
   color: white;
   box-shadow: var(--box-shadow);
   border-radius: 10px;

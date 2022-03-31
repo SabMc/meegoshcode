@@ -4,7 +4,10 @@
     padding-bottom: 80px;
 }
 
-.section-skills h2{padding-bottom: 0px;}
+.section-skills h2{
+    padding-bottom: 0px;
+    color: white;
+}
 
 .container-service{
     max-width: 1000px;
