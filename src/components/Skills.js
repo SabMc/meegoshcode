@@ -23,8 +23,9 @@ function Skills() {
               </div>
             <div className="service-txt">
               <h3>Creating and Maintaining your Website</h3>
-              <p>We create your website. 
-                We will build a website based on your ideas and design requests. 
+              <p>We create your website.<br/> 
+                Building a unique page based on your ideas and design requests or restyle your existing website<br/>
+                A constant maintenance keeps your homepage healthy. With minimum effort and maximum output we help you with it 
               </p>
             </div>
             </div>
@@ -32,8 +33,7 @@ function Skills() {
             <div className="service">
             <div className="service-txt">
               <h3>Green Hosting</h3>
-              <p>Working with a hosting company that is providing green hosting. The data center is located in Europe. The heat produced for cooling the center is compensated and invested into renewalbe energy projects.
-              </p>
+              <p>We provide eco-friendly hosting of your website</p>
             </div>
             <div className="service-img">
               <img src={tree} alt="tree representing green hosting of the website"/>
@@ -46,7 +46,7 @@ function Skills() {
               </div>
             <div className="service-txt">
               <h3>Building Online Courses</h3>
-              <p>We help you to create your own online school and bring your courses to your student's home
+              <p>We help you create your own online school and bring your courses to your student's home
               </p>
             </div>
             </div>
