@@ -12,6 +12,7 @@
   justify-content: space-evenly;
   align-items: center;
   max-width: 1400px;
+  padding-bottom: 50px;
 }
 
 .project-card{
@@ -24,8 +25,8 @@
 
 .proj-img img{
   display: block;
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   object-fit: cover;
   margin: 0 auto;
 }

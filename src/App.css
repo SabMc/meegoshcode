@@ -10,7 +10,7 @@
   --primary-color:#524F4F;
   --secondary-color:#75BBE7;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --background-color: #35629D;
+  --background-color: #1a314f;
  
 }
 
@@ -42,9 +42,6 @@ a{text-decoration: none;
       font-size: 27px;
     }
     
-    h5 {
-      font-size: 80px;
-    }
     p, li, a {
       font-size: 18px;
     }
@@ -65,5 +62,4 @@ a{text-decoration: none;
   p, li, a {
     font-size: 16px;
   }
-  
 }

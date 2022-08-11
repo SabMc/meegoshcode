@@ -17,7 +17,8 @@ function About() {
           <div className="description two">
             <h2 className="article-title">Sabrina from Meegosh Code</h2>
             <p className="quote">
-            Meegosh Code offers customised digital solutions for small businesses and artists 
+            Meegosh Code offers customised websites from the design to the execution for businesses and artists. <br/> 
+            For every complexe challenge we find a simple and powerful solution  
             </p>
             
            

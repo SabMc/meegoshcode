@@ -5,6 +5,7 @@ import Project3 from "./Project3";
 import persportfolio from "./images/persportfolio.jpg";
 import dacfront from "./images/dacfront.jpg";
 import sailingapp from "./images/sailingapp.jpg";
+import artistico from "./images/artistico.jpg";
 
 function Portfolio() {
   return (
@@ -38,11 +39,20 @@ function Portfolio() {
           text="Creating a sailing app to check the weather. Calculating wind speed to Beaufort at the current location and which ever location requiered"
           url="https://focused-stonebraker-0d6f32.netlify.app"
           />
-
-
-
           
+          </div>
+          <div className="projects-container">
 
+          <Project3 
+          img={artistico}
+          alt="personal portfolio final project from shecodes workshop responsive"
+          titel="Artistico Kosmetikagentur"
+          text="Designing and creating a website for a perfume distributor in Switzerland. Showing all the brands represented by Artistico and the company news."
+          url="https://artistico-kosmetikagentur.ch//"
+          
+          />
+          
+          
           </div>
         
       </div>
