@@ -6,6 +6,7 @@ import persportfolio from "./images/persportfolio.jpg";
 import dacfront from "./images/dacfront.jpg";
 import sailingapp from "./images/sailingapp.jpg";
 import artistico from "./images/artistico.jpg";
+import kreativ from "./images/kreativ.jpeg";
 
 function Portfolio() {
   return (
@@ -45,9 +46,17 @@ function Portfolio() {
 
           <Project3 
           img={artistico}
-          alt="personal portfolio final project from shecodes workshop responsive"
+          alt="online portfolio for perfume distributor from Switzerland"
           titel="Artistico Kosmetikagentur"
           text="Designing and creating a website for a perfume distributor in Switzerland. Showing all the brands represented by Artistico and the company news."
+          url="https://artistico-kosmetikagentur.ch//"
+          
+          />
+          <Project3 
+          img={kreativ}
+          alt="personal portfolio final project for Swiss Artist Lilly Zinsli"
+          titel="Kreativ Lilly Zinsli"
+          text="Designing and creating a website for a Swiss Artist. Displaying her art work and a short biografie about her life and working style."
           url="https://artistico-kosmetikagentur.ch//"
           
           />
