@@ -57,7 +57,7 @@ function Portfolio() {
           alt="personal portfolio final project for Swiss Artist Lilly Zinsli"
           titel="Kreativ Lilly Zinsli"
           text="Designing and creating a website for a Swiss Artist. Displaying her art work and a short biografie about her life and working style."
-          url="https://artistico-kosmetikagentur.ch//"
+          url="https://kreativ-lillyzinsli.com//"
           
           />
           
